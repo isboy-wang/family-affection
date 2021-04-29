@@ -1,0 +1,56 @@
+/* 整体部分 */
+#body{
+  display: flex;
+  justify-content: center;
+  
+}
+/* 内容部分 */
+#record{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 2px solid #333333;
+  width: 620rpx;
+  margin-left: 100rpx;
+}
+/* 具体的生活分享板块 */
+.exactly_life{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: -218rpx;
+}
+/* 时间 */
+.exactly_life .time{
+  font-size: 25rpx;
+}
+/* 点 */
+.exactly_life .point{
+  height: 20rpx;
+  width: 20rpx;
+  background: #cca264;
+  border-radius: 8rpx;
+  /* margin-left: -6px; */
+}
+/* 头像 */
+.exactly_life .portrait{
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 40rpx;
+  /* border-radius: 40rpx; */
+}
+/* 分享内容 */
+.content{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+/* 分享图 */
+.content image{
+  width: 400rpx;
+  height: 250rpx;
+}
+
+
+

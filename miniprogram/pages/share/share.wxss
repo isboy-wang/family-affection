@@ -1,1 +1,53 @@
-/* pages/share/share.wxss */
+.share{
+  height: 1100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.top{
+  margin-top: 20rpx;
+  height: 100rpx;
+  width: 650rpx;
+  background: #ffdab9;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.top text{
+  margin-left:40rpx;
+  color: rgb(75, 75, 75);
+
+}
+.top image{
+  height: 80rpx;
+  width: 80rpx;
+  margin-left: 30rpx;
+  border-radius: 40rpx;
+}
+
+/* top结束 */
+.pg image{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 70rpx;
+  border-radius: 75px;
+
+  /* margin-top: 100px; */
+}
+
+/* photograph结束 */
+.function image{
+  height: 40px;
+  width: 40px;
+}
+.function{
+
+  width: 750rpx;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}

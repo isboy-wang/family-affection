@@ -1,2 +1,14 @@
-<!--pages/share/share.wxml-->
-<text>pages/share/share.wxml</text>
+<view class="share">
+  <view class="top">
+    <image src='../../images/portrait.jpg'></image>
+    <text>分享了生活片段</text>
+  </view>
+  <view class="pg">
+    <image  bindtap="photograph" src="../../images/photograph.png"></image>
+  </view>
+  <view class="function">
+    <image src="../../images/text.png"></image>
+    <image bindtap="record_interface" src="../../images/recrod.png"></image>
+  </view>
+
+</view>

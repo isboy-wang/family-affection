@@ -1,0 +1,41 @@
+<view id="body">
+  <view id="record">
+  <view class="exactly_life">
+    <text class="time">21.4/27</text>
+    <view class="point"></view>
+    <image class="portrait" src="../../images/portrait.jpg"></image>
+
+    <view class="content">
+      <text >意境拉满</text>
+      <image src="../../images/photo_one.jpg"></image>
+
+    </view>
+    
+  </view>
+  <view class="exactly_life">
+    <text class="time">21.4/27</text>
+    <view class="point"></view>
+    <image class="portrait" src="../../images/portrait.jpg"></image>
+
+    <view class="content">
+      <text >意境拉满</text>
+      <image src="../../images/photo_one.jpg"></image>
+
+    </view>
+    
+  </view>
+  <view class="exactly_life">
+    <text class="time">21.4/27</text>
+    <view class="point"></view>
+    <image class="portrait" src="../../images/portrait.jpg"></image>
+
+    <view class="content">
+      <text >意境拉满</text>
+      <image src="../../images/photo_one.jpg"></image>
+
+    </view>
+    
+  </view>
+</view>
+
+</view>

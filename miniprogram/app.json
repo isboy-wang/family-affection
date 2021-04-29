@@ -4,6 +4,8 @@
     "pages/time/time",
     "pages/share/share",
     "pages/index/index",
+    "pages/record/record",
+    "pages/photograph/photograph",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",

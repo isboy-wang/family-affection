@@ -1,0 +1,33 @@
+<view id="photograph">
+  <view class="compile">
+    <view class="photo">
+      <view class="close">x
+      </view>
+        <image src="../../images/photo_one.jpg"></image>
+        <view class="close">x
+      </view>
+        <image src="../../images/photo_one.jpg"></image>
+
+      </view>
+    <view class="label">
+      <button>
+        天气
+      </button>
+      <button>
+        心情
+      </button>
+      <button>
+        美食
+      </button>
+    </view>
+    <input class="write"confirm-type="done" placeholder="分享生活 . . ."/>
+
+
+
+  </view>
+<button>
+  <view id="issue">
+分享
+</view>
+</button>
+</view>
