@@ -7,7 +7,7 @@
     <image  bindtap="photograph" src="../../images/photograph.png"></image>
   </view>
   <view class="function">
-    <image src="../../images/text.png"></image>
+ 
     <image bindtap="record_interface" src="../../images/recrod.png"></image>
   </view>
 

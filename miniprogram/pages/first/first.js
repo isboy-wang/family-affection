@@ -5,6 +5,42 @@ Page({
    * 页面的初始数据
    */
   data: {
+    date: '',
+    showDate: false,
+    isShowPopup: false
+
+
+  },
+  onDisplay() {
+    this.setData({
+      showDate: true
+    });
+  },
+  onClose() {
+    this.setData({
+      showDate: false
+    });
+  },
+  formatDate(date) {
+    date = new Date(date);
+    return `${date.getMonth() + 1}/${date.getDate()}`;
+  },
+  onConfirm(event) {
+    this.setData({
+      showDate: false,
+      date: this.formatDate(event.detail),
+    });
+  },
+  showPopup() {
+    this.setData({
+      isShowPopup: true
+    });
+  },
+
+  onClosePopup() {
+    this.setData({
+      isShowPopup: false
+    });
 
   },
 

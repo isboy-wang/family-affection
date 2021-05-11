@@ -52,6 +52,5 @@
     "color": "#000000",
     "selectedColor": "#ff7f50"
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "sitemapLocation": "sitemap.json"
 }

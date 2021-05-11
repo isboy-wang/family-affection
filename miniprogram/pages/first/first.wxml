@@ -1,2 +1,10 @@
-<!--pages/first/first.wxml-->
-<text>pages/first/first.wxml</text>
+<van-button type="default">默认按钮</van-button>
+<van-button type="danger">危险按钮</van-button>
+
+<van-button loading type="info" loading-text="加载中..." />
+<van-cell title="选择单个日期" value="{{ date }}" bind:click="onDisplay" />
+<van-calendar close-on-click-overlay="{{true}}" show="{{ showDate }}" bind:close="onClose" bind:confirm="onConfirm" />
+<van-cell title="展示弹出层" is-link bind:click="showPopup" />
+
+<van-popup show="{{isShowPopup}}" bind:close="onClosePopup">你好呀！</van-popup>
+<van-loading /> <van-loading type="spinner" />
